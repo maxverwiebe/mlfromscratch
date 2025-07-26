@@ -26,7 +26,7 @@ notebooks/
 
 | ![Linear Regression GD 2D](.images/linreg/2d.png) | ![Linear Regression GD 3D](.images/linreg/3d.png) | ![Linear Regression Loss Exposure](.images/linreg/loss.png) |
 | :-----------------------------------------------: | :-----------------------------------------------: | :---------------------------------------------------------: |
-|             _Linear Regression GD 2D_             |            _GLinear Regression GD 3D_             |              _Linear Regression Loss Exposure_              |
+|             _Linear Regression GD 2D_             |             _Linear Regression GD 3D_             |              _Linear Regression Loss Exposure_              |
 
 ### Logistic Regression
 
@@ -36,6 +36,15 @@ notebooks/
 | ![Logistic Regression Decision Boundary 2D](.images/logreg/2d.png) | ![Logistic Regression Loss Curve](.images/logreg/loss.png) |
 | :----------------------------------------------------------------: | :--------------------------------------------------------: |
 |             _Logistic Regression Decision Boundary 2D_             |              _Logistic Regression Loss Curve_              |
+
+### MiniSVM (Support Vector Machine)
+
+- **Gradient Descent Implementation**
+- It lacks _Kernel functions_ like RBF, Poly, Sigmoid... currently it's only linear
+
+| ![Linear Regression GD 2D](.images/minisvm/2d.png) | ![Linear Regression GD 3D](.images/minisvm/3d.png) | ![Linear Regression Loss Exposure](.images/minisvm/loss.png) |
+| :------------------------------------------------: | :------------------------------------------------: | :----------------------------------------------------------: |
+|                   _MiniSV GD 2D_                   |                  _MiniSVM GD 3D_                   |                   _MiniSVM Loss Exposure_                    |
 
 ## Learning Approach
 
