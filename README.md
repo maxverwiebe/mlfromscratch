@@ -50,9 +50,9 @@ notebooks/
 
 - Transforms n dimensional data onto a new coordinate system (dimension redcuction)
 
-| ![PCA Visualization](.images/pca/output.png) |
-| :------------------------------------------: |
-|    _PCA Example (Reduction of 9D to 3D)_     |
+| <img src=".images/pca/output.png" alt="drawing" width="300"/> |
+| :-----------------------------------------------------------: |
+|             _PCA Example (Reduction of 9D to 3D)_             |
 
 ### Decision Tree
 
