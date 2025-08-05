@@ -46,6 +46,34 @@ notebooks/
 | :------------------------------------------------: | :------------------------------------------------: | :----------------------------------------------------------: |
 |                   _MiniSV GD 2D_                   |                  _MiniSVM GD 3D_                   |                   _MiniSVM Loss Exposure_                    |
 
+### PCA (Principal Component Analysis)
+
+- Transforms n dimensional data onto a new coordinate system (dimension redcuction)
+
+| ![PCA Visualization](.images/pca/output.png) |
+| :------------------------------------------: |
+|    _PCA Example (Reduction of 9D to 3D)_     |
+
+### Decision Tree
+
+- Classifier using _Entropy_ to calculate information gain for splits
+- Regressor using _MSE_ (Mean Squared Error) to calculate best split
+
+| <img src=".images/dt/print.png" alt="drawing" width="100"/> |
+| :---------------------------------------------------------: |
+|              _Decision Tree Classifier Print_               |
+
+_The Regressor currently does not have an example notebook :(_
+
+### Random Forest
+
+- RF Classifier using the above introduced Decision Tree Classifier
+- RF Regressor using the above mentioned Decision Tree Regressor
+
+Examples here:
+[Random Forest Classifier Notebook](notebooks/04_random_forest_classifier.ipynb)
+[Random Forest Regression Notebook](notebooks/04_random_forest_regression.ipynb)
+
 ## Learning Approach
 
 Each implementation focuses on:
