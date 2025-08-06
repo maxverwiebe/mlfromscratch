@@ -28,6 +28,14 @@ notebooks/
 | :-----------------------------------------------: | :-----------------------------------------------: | :---------------------------------------------------------: |
 |             _Linear Regression GD 2D_             |             _Linear Regression GD 3D_             |              _Linear Regression Loss Exposure_              |
 
+### Polynomial Regression
+
+- **Gradient Descent Implementation** by using the Linear Regression and transforming the input X into polynomial features
+
+| ![Polynomial Regression GD 2D](.images/polyreg/2d.png) | ![Polynomial Regression GD 3D](.images/polyreg/3d.png) | ![Polynomial Regression GD 3D Complex](.images/polyreg/complex.png) |
+| :----------------------------------------------------: | :----------------------------------------------------: | :-----------------------------------------------------------------: |
+|             _Polynomial Regression GD 2D_              |             _Polynomial Regression GD 3D_              |                _Polynomial Regression GD 3D Complex_                |
+
 ### Logistic Regression
 
 - **Binary Classifier**: Implementation using the sigmoid function and maximum likelihood estimation
