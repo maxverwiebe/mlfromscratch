@@ -2,6 +2,8 @@ from .algorithms.linear_regression import LinearRegressionOLSVariant, LinearRegr
 from .algorithms.minisvm import MiniSVM
 from .algorithms.logistic_regression import LogisticRegression
 from .algorithms.decision_tree import DecisionTreeClassifier, DecisionTreeRegressor
+from .algorithms.polynomial_regression import PolynomialRegression
+from .algorithms.random_forest import RandomForestClassifier, RandomForestRegressor
 from .utils import TrainTestSplit, PCA
 from .eval import mean_squared_error, mean_absolute_error, r2_score
 
@@ -17,6 +19,9 @@ __all__ = [
     "DecisionTreeRegressor",
     "mean_squared_error",
     "mean_absolute_error",
-    "r2_score"
+    "r2_score",
+    "PolynomialRegression",
+    "RandomForestClassifier",
+    "RandomForestRegressor",
 
 ]
